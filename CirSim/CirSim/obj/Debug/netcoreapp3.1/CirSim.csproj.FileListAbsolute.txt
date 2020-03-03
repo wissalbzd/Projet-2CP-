@@ -1,0 +1,11 @@
+D:\CirSim\CirSim\obj\Debug\netcoreapp3.1\CirSim.csprojAssemblyReference.cache
+D:\CirSim\CirSim\obj\Debug\netcoreapp3.1\CirSim.AssemblyInfoInputs.cache
+D:\CirSim\CirSim\obj\Debug\netcoreapp3.1\CirSim.AssemblyInfo.cs
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.exe
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.deps.json
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.runtimeconfig.json
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.runtimeconfig.dev.json
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.dll
+D:\CirSim\CirSim\bin\Debug\netcoreapp3.1\CirSim.pdb
+D:\CirSim\CirSim\obj\Debug\netcoreapp3.1\CirSim.dll
+D:\CirSim\CirSim\obj\Debug\netcoreapp3.1\CirSim.pdb
