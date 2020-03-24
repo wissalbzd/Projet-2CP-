@@ -10,15 +10,26 @@ namespace CirSim
         { this.entrees = new int[nbbit]; }
         public override void Evaluer()
         {
-            int cpt = 0;
-            
-            for (int i = 0; i < nbBits; i++)
+            try
             {
-                
-                if (entrees[i] == 1) { cpt++; }
+                int cpt = 0;
+                for (int i = 0; i < nbBits; i++)
+                {
+                    if (entrees[i] == -1)
+                    {
+                        throw new EntreeNonValideException();
+                    }
+                    else
+                    {
+                        if (entrees[i] == 1) { cpt++; }
+                    }
+
+                }
+                if (cpt % 2 == 0) { sorties[0] = 0; }
+                else { sorties[0] = 1; }
             }
-            if (cpt % 2 == 0) { sorties[0] = 0; }
-            else { sorties[0] = 1; }
+            catch (EntreeNonValideException e)
+            { e.Afficher(); }
         }
     }
 }

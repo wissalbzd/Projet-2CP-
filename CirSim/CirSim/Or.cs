@@ -22,15 +22,34 @@ namespace CirSim
             bool trouv = false;
             while ((i < nbBits) && (!trouv))
             {
-                
-                
-                if (entrees[i] == 1) { s = 1; trouv = true; }
-                else { i++; }
-            }
-            
-            sorties[0] = s;
+
+                try
+                {
+                    if (entrees[i] == 1) { s = 1; trouv = true; }
+                    else
+                    {
+                        if (entrees[i] == -1)
+                        {
+                            while (!trouv && i < nbBits)
+                            {
+                                if (entrees[i] == 1) { s = 1; trouv = true; }
+                                else { i++; }
+                            }
+
+                            if (!trouv) { throw new EntreeNonValideException(); }
+                        }
+                        else
+                        { i++; }
+                    }
+                   sorties[0] = s;
+                }
+                catch (EntreeNonValideException e)
+                { e.Afficher(); }
+            } 
         }
 
 
     }
 }
+// if (Array.Exists(this.entrees, element => element == 1))
+                        //{ s = 1; trouv = true; }

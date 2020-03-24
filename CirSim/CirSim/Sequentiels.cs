@@ -1,22 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CirSim
 {
-    public abstract class  Sequentiels
+    public abstract class  Sequentiels : Composant
     {
-        //Horloge horloge;
-       protected bool synchronise;
-       protected int[] tab_sortie;
-        protected String[,] tab_transition;
-        protected String expression { get; }
-       
-            public Sequentiels(bool synchronise)
-        {
-            this.synchronise = synchronise;
-           
-        }
+        
+        public static String[,] tab_transition { get; set; }
+        Horloge h;
+
+        protected Sequentiels(int nbBits) : base (nbBits) { }
+        
+        public void Clock(Horloge h) { this.h = h; h.compoattaches.Add (this);  }
+        public  abstract  void tab_TT();
         public void chronogramme(int[] tab_transition) { }
         public void Affich_TT()
         {
@@ -35,6 +32,7 @@ namespace CirSim
                 Console.WriteLine();
             }
         }
-
+        public abstract override int Get_sortie(int num);
+        public abstract override void Set_entrees(int numE, int val);
     }
 }

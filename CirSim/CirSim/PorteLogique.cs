@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CirSim
 {
-    abstract class PorteLogique : Composant
+    public abstract class PorteLogique : Composant
     {
         public int[] entrees;
 
@@ -12,12 +12,17 @@ namespace CirSim
         {
             entrees = new int[nbbit];
             sorties = new int[1];
-            //int[] sorties = new int[1];
-            //    sorties[0] = 1;
-
-            
+        }
+        public override int Get_sortie(int num)
+        {
+            return this.sorties[num];
         }
         
+        public override void Set_entrees(int numE, int val)
+        {
+            this.entrees[numE] = val;
+        }
+
         public  abstract override void Evaluer();
     }
 

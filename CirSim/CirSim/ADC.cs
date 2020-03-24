@@ -35,7 +35,35 @@ namespace CirSim
             this.Rs = r;
 
         }
+    
+        public  override int Get_sortie(int num)
+        {
+            if(num==entrees.Length)
+            {
+                return this.Rs;
+            }
+            else
+            {
+                return this.sorties[num];
+            }
+        }
+        
+        public override void Set_entrees(int numE, int val)
+        {
+            if (numE < entrees.Length)
+            {
+                this.entrees[numE] = val;
+            }
+            else if (numE >= entrees.Length && numE < 2 * entrees.Length)
+            {
+                this.entrees2[numE - entrees.Length] = val;
+            }
+            else
+            {
+                this.Re = val;
+            }
 
+        }
 
     }
 }

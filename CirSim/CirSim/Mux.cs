@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 
 namespace CirSim
@@ -17,14 +17,50 @@ namespace CirSim
         public override void Evaluer()
         {
             String commande = "";
-            foreach (int i in cmd)
+            try 
             {
-                commande = commande + i.ToString();
+                for (int i = (cmd.Length) - 1; i >= 0; i--)
+                {
+
+                    if (cmd[i] == -1)
+                    {
+
+                        throw new EntreeNonValideException();
+                    }
+                    else
+                    {
+                        commande = commande + cmd[i];
+                    }
+                }
+
+                int valDecimal = Convert.ToInt32(commande, 2);
+                if (entrees[valDecimal] == -1)
+                {
+                    throw new EntreeNonValideException();
+                }
+                else
+                {
+                    sorties[0] = entrees[valDecimal] == 1 ? 1 : 0;
+                }    
+            }
+            catch (EntreeNonValideException)
+            {
+                Console.WriteLine("erreur !");
+            }
+            
+        }
+        public override void Set_entrees(int numE, int val)
+        {
+            if (numE < entrees.Length)
+            {
+                this.entrees[numE] = val;
+            }
+            else
+            {
+                this.cmd[numE - entrees.Length] = val;
             }
 
-            int valDecimal = Convert.ToInt32(commande, 2);
-
-            sorties[0] = entrees[valDecimal] == 1 ? 1 : 0;
         }
+        
     }
 }

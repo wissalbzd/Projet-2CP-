@@ -1,17 +1,19 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace CirSim
 {
-    public class Bascule : Sequentiels
+    public abstract class Bascule : Sequentiels
     {
-        protected int[] tab_entrees { get; set; }
+        public int[] Precedent;
 
-        public Bascule(bool synchronise, int[] tab_entrees) : base(synchronise)
-        {
-            this.tab_entrees = tab_entrees;
+        public Bascule(int nbBits) : base(nbBits) {
+            Precedent = new int[6];
+            sorties = new int[5];
         }
+        
+       
        
     }
 }

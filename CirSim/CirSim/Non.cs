@@ -15,8 +15,20 @@ namespace CirSim
 
         public override void Evaluer()
         {
-            if (entrees[0] == 0) { sorties[0] = 1; }
-            else { sorties[0] = 0; }
+            try
+            {
+                if (entrees[0] == -1)
+                {
+                    throw new EntreeNonValideException();
+                }
+                else
+                {
+                    if (entrees[0] == 0) { sorties[0] = 1; }
+                    else { sorties[0] = 0; }
+                }
+            }
+            catch (EntreeNonValideException e)
+            { e.Afficher(); }
         }
     }
 }

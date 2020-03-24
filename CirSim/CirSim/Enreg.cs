@@ -4,7 +4,7 @@ using System.Text;
 
 namespace CirSim
 {
-    class Enreg
+    public class Enreg
     {
         public Composant composant;
         public int nEntree;

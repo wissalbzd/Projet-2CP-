@@ -12,14 +12,23 @@ namespace CirSim
         {
             int s = 0;
             int i = 0;
-            bool trouv = false;
-            while ((i < nbBits) && (!trouv))
+            
+            bool exception = false;
+            try
             {
-                
-                if (entrees[i] == 0) { s = 1; trouv = true; }
-                else { i++; }
+                while (i < nbBits)
+                {
+                    if (entrees[i] == -1) exception = true;
+                    if (entrees[i] == 0) { s = 1; break; }
+                    else { i++; }
+                }
+                if (exception && i==nbBits) throw new EntreeNonValideException();
+                else sorties[0] = s;
+            }catch (EntreeNonValideException)
+            {
+                Console.WriteLine("erreur");
             }
-            sorties[0] = s;
+
         }
     }
 }

@@ -13,17 +13,29 @@ namespace CirSim
         { this.entrees = new int[nbBits]; }
         public override void Evaluer()
         {
-            int i = 0;
-            int sortie_active = 0;
-            while (i < entrees.Length)
+            try
             {
-                sortie_active += (int)entrees[i] * (int)Math.Pow(2, i);
-                i++;
+                int i = 0;
+                int sortie_active = 0;
+                while (i < entrees.Length)
+                {
+                    if (entrees[i] == -1)
+                    {
+                        throw new EntreeNonValideException();
+                    }
+                    else
+                    {
+                        sortie_active += (int)entrees[i] * (int)Math.Pow(2, i);
+                        i++;
+                    }
+                }
+                int sortie_length = (int)Math.Pow(2, entrees.Length);
+                sorties = new int[sortie_length];
+                Initialiser(this.sorties, 0);
+                sorties[sortie_active] = 1;
             }
-            int sortie_length = (int)Math.Pow(2, entrees.Length);
-            sorties = new int[sortie_length];
-            Initialiser(this.sorties, 0);
-            sorties[sortie_active] = 1;
+            catch (EntreeNonValideException e)
+            { e.Afficher(); }
 
         }
         private void Initialiser(int[] tab, int x)
@@ -31,6 +43,7 @@ namespace CirSim
             for (int i = 0; i < tab.Length; i++)
             { tab[i] = x; }
         }
+        
 
     }
 }

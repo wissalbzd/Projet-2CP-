@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -20,22 +20,60 @@ namespace CirSim
         public override void Evaluer()
         {
             String commande = "";
-            foreach (int i in cmd)
+            try
             {
-                commande = commande + i.ToString();
-            }
-            int indice = Convert.ToInt32(commande, 2);
-            int val = (int)entrees[0];
+                for (int i = (cmd.Length) - 1; i >= 0; i--)
+                {
+                    if (cmd[i] == -1)
+                    {
+                        throw new EntreeNonValideException();
+                    }
+                    else
+                    {
+                        commande = commande + cmd[i];
+                    }
 
-            for (int i = 0; i < Math.Pow(2, nbBits); i++)
-            {
-                if (i == indice)
-                    sorties[indice] = val == 1 ? 1 : 0;
+                }
+
+                int indice = Convert.ToInt32(commande, 2);
+                if (entrees[0] == -1)
+                {
+                    throw new EntreeNonValideException();
+                }
                 else
-                    sorties[i] = val == 1 ? 0 : 1;
+                {
+                    int val = (int)entrees[0];
 
+                    for (int i = 0; i < Math.Pow(2, nbBits); i++)
+                    {
+                        if (i == indice)
+                            sorties[indice] = val == 1 ? 1 : 0;
+                        else
+                            sorties[i] = val == 1 ? 0 : 1;
+                    }
+                }
+            }
+            catch(EntreeNonValideException)
+            {
+                Console.WriteLine("Erreur");
             }
         }
+        
+        
+        public override void Set_entrees(int numE, int val)
+        {
+            if (numE < entrees.Length)
+            {
+                this.entrees[numE] = val;
+            }
+            else
+            {
+                this.cmd[numE - entrees.Length] = val;
+            }
+
+        }
+      
+       
     }
 }
 
