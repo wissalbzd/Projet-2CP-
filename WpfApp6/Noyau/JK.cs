@@ -8,10 +8,10 @@ namespace Projet.CirSim
     public class JK : Bascule
     {
 
-        public   int i ;
-        public  int  j,k;
+        public int i;
+        public int j, k;
         public JK() : base(5) { this.i = 0; }
-        public override void tab_TT() 
+        public override void tab_TT()
         {
             tab_transition = new String[9, 6];
             tab_transition[0, 0] = "Pr";
@@ -45,52 +45,42 @@ namespace Projet.CirSim
 
         public override void Evaluer()
         {
-            if (i==0) Precedent[0] = entrees[0];
-            if (i == 0) {  j = entrees[1];  k = entrees[2];  }
+            Precedent[0] = entrees[0];
+            j = entrees[1]; k = entrees[2];
             int Pr = entrees[3]; int Cl = entrees[4];
-         
 
-            if (Cl == 0 && Pr == 0) Console.WriteLine("Etat interdit");
+
+            try { if (Cl == 0 && Pr == 0) throw new EntreeNonValideException(); }
+            catch (EntreeNonValideException)
+            {
+                Console.WriteLine("Erreur");
+            }
+
             if (Cl == 1 && Pr == 0)
             {
                 sorties[i] = 1; Precedent[i + 1] = sorties[i];
             }
 
             if (Cl == 1 && Pr == 1)
-              {
-                        {   
-                            if (j==0 && k==0 )  sorties[i] = Precedent[i]; 
+            {
+                {
+                    if (j == 0 && k == 0) sorties[i] = Precedent[i];
 
-                            else if (j == 1 && k == 1) { if (Precedent[i] == 1) sorties[i] = 0; else sorties[i] = 1; }
+                    else if (j == 1 && k == 1) { if (Precedent[i] == 1) sorties[i] = 0; else sorties[i] = 1; }
 
-                            else if (j == 1) sorties[i] = 1; else sorties[i] = 0;
-                            Precedent[i + 1] = sorties[i];
-                        }
+                    else if (j == 1) sorties[i] = 1; else sorties[i] = 0;
+                    Precedent[i + 1] = sorties[i];
+                }
                 this.i = this.i + 1;
-              
+
 
                 //*******************************Test**************************************************
-                /*  if (i == 1)
-                  { 
-                      this.j = 0;
-                      this.k = 1;
-                  }
-                  else if (i == 2)
-                  {
-                      this.j = 1;
-                      this.k = 0;
-                  }
-                  else
-                  {
-                      this.j = 1;
-                      this.k = 1;
-                  }*/
-
+               
             }
 
         }
-        public override int Get_sortie(int num) { return num; }
-        public override void Set_entrees(int numE, int val) { }
+       
+       
     }
     
 }
