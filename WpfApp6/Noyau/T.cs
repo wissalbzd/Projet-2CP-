@@ -12,7 +12,7 @@ namespace Projet.CirSim
         public T() : base(1)
         {
             tab_transition = new String[3, 2];
-            i = 0;
+            this.i = 0;
         }
         public override  void tab_TT() 
         {
@@ -28,7 +28,7 @@ namespace Projet.CirSim
         public override void Evaluer()
         {
 
-            bool h = true; int i = 0;
+         
             t = entrees[1];
             Precedent[0] = entrees[0];
 
@@ -43,7 +43,7 @@ namespace Projet.CirSim
         
     }
 
-        public override int Get_sortie(int num) { return num; }
-        public override void Set_entrees(int numE, int val) { }
+       
+      
     }
 }
