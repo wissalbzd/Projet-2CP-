@@ -7,14 +7,15 @@ namespace Projet.CirSim
 
     public abstract class  Sequentiels : Composant
     {
-        
-        public static String[,] tab_transition { get; set; }
-        Horloge h;
 
-        protected Sequentiels(int nbBits) : base (nbBits) { }
-        
-        public void Clock(Horloge h) { this.h = h; h.compoattaches.Add (this);  }
-        public  abstract  void tab_TT();
+        public static String[,] tab_transition { get; set; }
+        public Horloge h;
+        public string mode;
+
+        protected Sequentiels(int nbBits) : base(nbBits) { }
+
+        public void Clock(Horloge h) { this.h = h; h.compoattaches.Add(this); }
+        public abstract void tab_TT();
         public void chronogramme(int[] tab_transition) { }
         public void Affich_TT()
         {
@@ -33,7 +34,10 @@ namespace Projet.CirSim
                 Console.WriteLine();
             }
         }
+        public void set_Mode(string mode) { this.mode = mode; }
         public abstract override int Get_sortie(int num);
-        public abstract override void Set_entrees(int numE, int val);
+        public override void Set_entrees(int numE, int val) { entrees[numE] = val; }
+
+
     }
 }
