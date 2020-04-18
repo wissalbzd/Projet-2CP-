@@ -26,20 +26,23 @@ namespace Projet.CirSim
         public override void Evaluer()
         {
 
-           int i = 0;
-           int t = entrees[1];
-            Precedent[0] = entrees[0];
+              int i = 0;
+           int t = entrees[0];
+         
 
 
-            if (t == 0) sorties[i] = Precedent[i];
-            else if (Precedent[i] == 1) sorties[i] = 0; else sorties[i] = 1; 
-            Precedent[i] = sorties[i];
-            Console.WriteLine(i);
+            if (t == 0) sorties[i] = Precedent;
+            else if (Precedent == 1) sorties[i] = 0; else sorties[i] = 1; 
+            Precedent = sorties[i];
+            
+           
+            //******************************Test********************************* if (T == 0) T = 1; else T = 0;
+          
            
             //******************************Test********************************* if (T == 0) T = 1; else T = 0;
           
         
-    }
+        }
 
 
        
