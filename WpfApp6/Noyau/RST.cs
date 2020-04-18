@@ -1,4 +1,10 @@
 
+using System;
+using System.Collections.Generic;
+using System.Text;
+using Projet.Controleurs;
+namespace Projet.CirSim
+{
 
    class RST : Bascule
     {
@@ -112,3 +118,5 @@
            
           
         }
+     }
+ }
