@@ -2,13 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Projet.Controleurs;
+
 namespace Projet.CirSim
 {
+    public class JK : Bascule
+    {
+        public bool synchrone = true;
 
-   
-    
-        public JK() : base(5) {  }
-        public override void tab_TT() 
+        public JK() : base(5) { }
+        public override void tab_TT()
         {
             tab_transition = new String[9, 6];
             tab_transition[0, 0] = "Pr";
@@ -42,45 +44,44 @@ namespace Projet.CirSim
 
         public override void Evaluer()
         {
-            
+
             int i = 0;
-             int j = entrees[0],  k = entrees[1];  
+            int j = entrees[0], k = entrees[1];
             int Pr = entrees[2]; int Cl = entrees[3];
-           
+
 
             try { if (Cl == 0 && Pr == 0) throw new EntreeNonValideException(); }
             catch (EntreeNonValideException)
             {
                 Console.WriteLine("Erreur");
             }
-        
+
             if (Cl == 1 && Pr == 0)
             {
-                sorties[i] = 1; Precedent[i] = sorties[i];
+                sorties[i] = 1; Precedent = sorties[i];
             }
+            else if (Cl == 0 && Pr == 1) { sorties[i] = 0; Precedent = sorties[i]; }
+            else if (Cl == 1 && Pr == 1)
+            {
+                {
+                    if (j == 0 && k == 0) sorties[i] = Precedent;
 
-           else if (Cl == 1 && Pr == 1)
-                 {
-                        {   
-                            if (j==0 && k==0 )  sorties[i] = Precedent[i]; 
+                    else if (j == 1 && k == 1) { if (Precedent == 1) sorties[i] = 0; else sorties[i] = 1; }
 
-                            else if (j == 1 && k == 1) { if (Precedent[i] == 1) sorties[i] = 0; else sorties[i] = 1; }
+                    else if (j == 1) sorties[i] = 1; else sorties[i] = 0;
+                    Precedent = sorties[i];
+                }
 
-                            else if (j == 1) sorties[i] = 1; else sorties[i] = 0;
-                            Precedent[i ] = sorties[i];
-                        }
-             
-              
+
 
                 //*******************************Test**************************************************
-               
+
 
             }
 
         }
-       
-       
-       
+
+
     }
-    
+
 }
