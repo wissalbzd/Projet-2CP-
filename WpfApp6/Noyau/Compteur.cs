@@ -7,18 +7,15 @@ namespace Projet.CirSim
 
     class Compteur : Sequentiels
     {
+       
         string type; //bit ou bus
-        int i,modulo,j=0;
-         public int[,] Q;
+        int modulo, i=0;
+       
         int nb;
-           public Compteur(int modulo,string type) : base(1) { this.i = 0; this.modulo = modulo;  entrees[0] = 1; this.type = type;  mode = "frontD";
+           public Compteur(int modulo,string type) : base(1) {  this.modulo = modulo;  entrees[0] = 1; this.type = type;  
             this.nb = Nb_ligne_sortie();
-            if (type == "bit") { sorties = new int[100]; Q = new int[100, 100];
-            }
-            else
-            {
-                sorties = new int[modulo];
-            }
+
+            sorties = new int[Nb_ligne_sortie ()];
         }
         public override void tab_TT()
         { }
@@ -36,13 +33,13 @@ namespace Projet.CirSim
                     if (type == "bus") sorties[i] = Int32.Parse(Convert.ToString(i, 2));
                     else
                     {
-                        sorties[j] = Int32.Parse(Convert.ToString(i, 2));
-                        int mod = sorties[j]; 
-
-                        for (int k = nb; k >= 0; k--)
+                        
+                        int mod = Int32.Parse(Convert.ToString(i, 2));
+                        Console.WriteLine(mod);
+                        for (int k = nb-1; k >= 0; k--)
                         {
-
-                            Q[j, k] = mod / (int)Math.Pow(10, k);
+                            
+                            sorties[k] = mod / (int)Math.Pow(10, k);
                             mod = mod % (int)Math.Pow(10, k);
                            
 
@@ -50,7 +47,7 @@ namespace Projet.CirSim
                        
                     }
                     this.i++;
-                    this.j++;
+                    
                 
                 }
                 else this.i = 0;
@@ -75,7 +72,5 @@ namespace Projet.CirSim
         }
         public void setDebutComptage(int i) { this.i = i; }
         public override int Get_sortie(int num) { return sorties[num]; }
-        public int Get_sortieB(int numL , int numC) { return Q[numL, numC]; } //i num du cycle le poids faible 0
-       
     }
 }
