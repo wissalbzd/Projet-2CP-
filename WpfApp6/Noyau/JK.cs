@@ -60,7 +60,8 @@ namespace Projet.CirSim
             {
                 sorties[i] = 1; Precedent = sorties[i];
             }
-            else if (Cl == 0 && Pr == 1) { sorties[i] = 0; Precedent = sorties[i]; }
+            else if(Cl==0 && Pr==1)  {sorties[i] = 0; Precedent = sorties[i];}
+            else if (Cl == 1 && Pr == 0) { sorties[i] = 1; Precedent = sorties[i]; }
             else if (Cl == 1 && Pr == 1)
             {
                 {
