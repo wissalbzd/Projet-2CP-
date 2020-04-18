@@ -7,12 +7,10 @@ namespace Projet.CirSim
 
     class T : Bascule
     {
-        public int i;
-        public  int t ;
-        public T() : base(1)
+          public T() : base(1)
         {
             tab_transition = new String[3, 2];
-            this.i = 0;
+           
         }
         public override  void tab_TT() 
         {
@@ -28,20 +26,21 @@ namespace Projet.CirSim
         public override void Evaluer()
         {
 
-         
-            t = entrees[1];
+           int i = 0;
+           int t = entrees[1];
             Precedent[0] = entrees[0];
 
 
             if (t == 0) sorties[i] = Precedent[i];
             else if (Precedent[i] == 1) sorties[i] = 0; else sorties[i] = 1; 
-            Precedent[i + 1] = sorties[i];
-
+            Precedent[i] = sorties[i];
+            Console.WriteLine(i);
            
             //******************************Test********************************* if (T == 0) T = 1; else T = 0;
-            this.i=this.i+1;
+          
         
     }
+
 
        
       
