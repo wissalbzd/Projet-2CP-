@@ -7,12 +7,12 @@ namespace Projet.CirSim
 
     public abstract class Bascule : Sequentiels
     {
-        public int[] Precedent;
+        public int Precedent;
 
         public Bascule(int nbBits) : base(nbBits)
         {
-            Precedent = new int[100];
-            sorties = new int[99];
+            
+            sorties = new int[2];
         }
 
         public override int Get_sortie(int num)
@@ -20,7 +20,10 @@ namespace Projet.CirSim
             return sorties[num];
         }
 
-
+         public void Complementaire()
+        {
+            if (sorties[0] == 1) sorties[1] = 0; else sorties[1] = 1;
+        }
 
     }
 }
