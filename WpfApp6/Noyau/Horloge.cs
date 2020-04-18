@@ -14,37 +14,34 @@ namespace Projet.CirSim
         public bool etat = true;
 
 
-        public void cycle()
+          public void cycle()
         {
-
-            int front = 1, et = -1;
+            
+            int front = 1,et=-1;
             int i = 0;
-
-            while (i < cy * 2)
+            
+            while (i < cy*2)
             {
                 foreach (Sequentiels element in compoattaches)
                 {
 
-
-                    if (element.mode == "frontM")
+                    if (element.GetType().ToString() == "CirSim.JK") { if (element.entrees[2] != element.entrees[3]) element.Evaluer(); }
+                    else
                     {
-                        // Console.WriteLine("frontM");
-                        if (front == 1) { element.Evaluer(); }
+                        if (element.mode == "frontM")
+                        {
+                            
+                            if (front == 1) { element.Evaluer(); }
+                        }
+                        if (element.mode == "frontD")
+                        {
+
+                            if (front == 0) { element.Evaluer(); }
+                            Console.WriteLine("frontD");
+                        }
+                       
                     }
-                    if (element.mode == "frontD")
-                    {
-
-                        if (front == 0) { element.Evaluer(); }
-                        Console.WriteLine("frontD");
-                    }
-                    if (element.mode == "EtatH")
-                    {
-                        // Console.WriteLine("etat");
-                        if (etat) { element.Evaluer(); }
-
-                    }
-
-
+                    
                 }
                 System.Threading.Thread.Sleep(100);
                 if (front == 1) { et = 1; etat = true; } else { et = 0; etat = false; }
@@ -52,30 +49,34 @@ namespace Projet.CirSim
 
                 foreach (Sequentiels element in compoattaches)
                 {
-                    if (element.mode == "EtatH")
+                    if (element.GetType().ToString() == "CirSim.JK") { if (element.entrees[2] != element.entrees[3]) element.Evaluer(); }
+                    else
                     {
-                        // Console.WriteLine("etat");
-                        if (etat) { element.Evaluer(); }
+                        if (element.mode == "EtatH")
+                        {
+                            // Console.WriteLine("etat");
+                            if (etat) { element.Evaluer(); }
 
-                    }
-                    if (element.mode == "EtatB")
-                    {
-                        if (!etat) { element.Evaluer(); }
-                        // Console.WriteLine("!etat");
+                        }
+                        if (element.mode == "EtatB")
+                        {
+                            if (!etat) { element.Evaluer(); }
+                            // Console.WriteLine("!etat");
 
+                        }
                     }
                 }
                 System.Threading.Thread.Sleep(1000);
                 if (et == 1) front = 0; else front = 1;
                 et = -1;
                 i++;
+               
             }
-
-
-
-
-
+                
+               
+               
+               
+            
         }
-
     }
 }
