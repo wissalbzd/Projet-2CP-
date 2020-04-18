@@ -25,7 +25,7 @@ namespace Projet.CirSim
                 foreach (Sequentiels element in compoattaches)
                 {
 
-                    if (element.GetType().ToString() == "CirSim.JK") { if (element.entrees[2] != element.entrees[3]) element.Evaluer(); }
+                    if (element.GetType().ToString() == "CirSim.JK" && element.entrees[2] != element.entrees[3]) ) { element.Evaluer(); }
                     else
                     {
                         if (element.mode == "frontM")
@@ -49,7 +49,7 @@ namespace Projet.CirSim
 
                 foreach (Sequentiels element in compoattaches)
                 {
-                    if (element.GetType().ToString() == "CirSim.JK") { if (element.entrees[2] != element.entrees[3]) element.Evaluer(); }
+                    if (element.GetType().ToString() == "CirSim.JK" && element.entrees[2] != element.entrees[3]) {  element.Evaluer(); }
                     else
                     {
                         if (element.mode == "EtatH")
