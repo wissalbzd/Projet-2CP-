@@ -11,7 +11,7 @@ namespace Projet.CirSim
         public static String[,] tab_transition { get; set; }
         
         public string mode;
-
+        public Enreg Validation;
         protected Sequentiels(int nbBits) : base(nbBits) 
         { this.sync = true; }
         public abstract void tab_TT();
@@ -35,9 +35,24 @@ namespace Projet.CirSim
         }
         public bool Condition()
         {
+          if(Validation==null)
+          {
           if((mode=="frontM" && Circuit.Horloge.front==1) || (mode=="fronD" && Circuit.Horloge.front==0) || (mode=="etatH" && Circuit.Horloge.etat) || (mode=="etatB" && !Circuit.Horloge.etat))
             { return true; }
             else return false;
+          }
+          else
+          {
+              if(Validation.composant.sorties[Validation.nEntree]==0)
+                { return false; }
+                else { return false; }
+          }
+
+        }
+        public void Aff_Valid(Composant composant,int numS)
+        {
+            this.Validation.composant = composant;
+            this.Validation.nEntree = numS;
         }
         public void set_Mode(string mode) { this.mode = mode; }
         public abstract override int Get_sortie(int num);
