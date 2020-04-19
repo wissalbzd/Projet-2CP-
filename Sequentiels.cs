@@ -43,8 +43,8 @@ namespace Projet.CirSim
           }
           else
           {
-              if(Validation.composant.sorties[Validation.nEntree]==0)
-                { return false; }
+              if((Validation.composant.sorties[Validation.nEntree]==0 && this.etat="etatB") || (Validation.composant.sorties[Validation.nEntree]==1 && this.etat="etatH") )
+                { return true; }
                 else { return false; }
           }
 
