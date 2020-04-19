@@ -1,0 +1,56 @@
+﻿<Window x:Class="Projet.PrincipalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet"
+        mc:Ignorable="d"
+        Title="CirSim" Icon="images/logo.ico"  Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Background="Black">
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <StackPanel Orientation="Vertical" VerticalAlignment="Center" >
+            <Image Source="images/logo.png"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="218" Width="160"/>
+            <TextBlock Text=" CirSim" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"  FontSize="24" Width="94" Margin="0,20,0,0" FontWeight="Bold"/>
+
+        </StackPanel>
+
+
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1"   Margin="62,74,55,79" Width="279" Height="266"  >
+            <StackPanel  Orientation="Horizontal" Height="45" Margin="0,10,0,10" >
+                <Path  Data="m408 184h-136c-4.417969 0-8-3.582031-8-8v-136c0-22.089844-17.910156-40-40-40s-40 17.910156-40 40v136c0 4.417969-3.582031 8-8 8h-136c-22.089844 0-40 17.910156-40 40s17.910156 40 40 40h136c4.417969 0 8 3.582031 8 8v136c0 22.089844 17.910156 40 40 40s40-17.910156 40-40v-136c0-4.417969 3.582031-8 8-8h136c22.089844 0 40-17.910156 40-40s-17.910156-40-40-40zm0 0" Stretch="Fill" Fill="White" Width="41" Margin="10,10,0,0"/>
+                <Button x:Name="nouveau" Content="Nouveau" Foreground="White" Background="Transparent" BorderBrush="Transparent" Margin="20,0,0,0" FontSize="20" Click="nouveau_Click" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="45" Margin="0,10,0,10" >
+                <Path Data="M469.3,106.7H106.7c-20,0-37.2,14-41.7,33.4L3.9,346.2C2.2,351.8,3,358,6,363.1C13.6,376,27.7,384,42.7,384h160
+	                      v21.3H192c-5.9,0-10.7,4.8-10.7,10.7v10.7H32c-5.9,0-10.7,4.8-10.7,10.7S26.1,448,32,448h149.3v10.7c0,5.9,4.8,10.7,10.7,10.7h42.7
+	                       c5.9,0,10.7-4.8,10.7-10.7V448h149.3c5.9,0,10.7-4.8,10.7-10.7s-4.8-10.7-10.7-10.7H245.3V416c0-5.9-4.8-10.7-10.7-10.7H224V384
+	                       h181.3c19.8,0,36.6-13.5,41.6-32.9l62.9-188.8c1.4-4.5,2.2-8.8,2.2-12.9C512,125.8,492.9,106.7,469.3,106.7z M9.1,221.3
+	                       c0.5,0.1,1,0.1,1.5,0.1c4.7,0,8.9-3.1,10.2-7.6L44.2,135c0-0.1,0.1-0.3,0.1-0.4c7.3-29,32.9-49.3,62.3-49.3h328.7
+	                       c3.5,0,6.7-1.7,8.7-4.5c2-2.8,2.5-6.5,1.3-9.7c-6-17-22.2-28.4-40.1-28.4H207.1L167.5,3.1c-2-2-4.7-3.1-7.5-3.1H42.7
+	                       C19.1,0,0,19.1,0,42.7v168.1C0,216.1,3.9,220.6,9.1,221.3z" Stretch="Fill" Fill="White" Width="41" Margin="10,10,0,0"/>
+                <Button Content="Ouvrir" Foreground="White" Background="Transparent" BorderBrush="Transparent" Margin="20,0,0,0"  FontSize="20" Click="Ouvrir_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="45" Margin="0,10,0,10" >
+                <Path Data="M504.008,223.961c-4.121-2.587-36.412-21.931-49.246-27.802l-15.903-38.392c4.725-12.695,13.752-48.308,15.164-54.482    c1.307-5.724-0.418-11.718-4.57-15.87l-24.868-24.867c-4.151-4.152-10.147-5.878-15.87-4.57    c-4.682,1.071-41.226,10.23-54.482,15.164L315.84,57.239c-5.618-12.28-24.386-43.807-27.802-49.246    c-3.121-4.973-8.581-7.992-14.453-7.992h-35.17c-5.872,0-11.332,3.019-14.454,7.992c-2.587,4.121-21.931,36.412-27.802,49.246    l-38.392,15.903c-12.695-4.725-48.308-13.752-54.482-15.164c-5.724-1.307-11.718,0.419-15.87,4.57L62.547,87.416    c-4.152,4.152-5.878,10.146-4.57,15.87c1.071,4.682,10.23,41.226,15.164,54.482L57.238,196.16    c-12.28,5.618-43.807,24.386-49.246,27.802C3.019,227.083,0,232.543,0,238.415v35.17c0,5.872,3.019,11.332,7.992,14.454    c4.121,2.587,36.412,21.931,49.246,27.802l15.903,38.392c-4.725,12.695-13.752,48.308-15.164,54.482    c-1.307,5.724,0.418,11.718,4.57,15.87l24.868,24.868c4.152,4.152,10.148,5.879,15.87,4.57    c4.682-1.071,41.226-10.23,54.482-15.164l38.392,15.903c5.618,12.28,24.386,43.807,27.802,49.246    c3.122,4.973,8.582,7.992,14.454,7.992h35.17c5.872,0,11.332-3.019,14.454-7.992c2.587-4.121,21.931-36.412,27.802-49.246    l38.392-15.903c12.695,4.725,48.308,13.752,54.482,15.164c5.726,1.31,11.719-0.418,15.87-4.57l24.868-24.868    c4.152-4.152,5.878-10.146,4.57-15.87c-1.071-4.682-10.23-41.226-15.164-54.482l15.903-38.392    c12.28-5.618,43.807-24.386,49.246-27.802c4.973-3.122,7.992-8.582,7.992-14.454v-35.17    C512,232.543,508.981,227.083,504.008,223.961z M256,367.605c-61.539,0-111.605-50.066-111.605-111.605    S194.461,144.396,256,144.396s111.605,50.066,111.605,111.605S317.539,367.605,256,367.605z"  Width="41" Stretch="Fill" Fill="White" Margin="10,10,0,0"/>
+                <Button Content="Paramètres" Foreground="White" Background="Transparent" BorderBrush="Transparent" Margin="20,0,0,0"  FontSize="20"></Button>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Height="45" Margin="0,10,0,10" >
+                <Path Data="M255.1,467.8H63.8c-11.7,0-21.3-9.5-21.3-21.3V63.8c0-11.7,9.5-21.3,21.3-21.3h191.4c11.8,0,21.3-9.5,21.3-21.3
+	                S266.9,0,255.1,0H63.8C28.6,0,0,28.6,0,63.8v382.7c0,35.2,28.6,63.8,63.8,63.8h191.4c11.8,0,21.3-9.5,21.3-21.3
+	                 S266.9,467.8,255.1,467.8z M505.7,240L376.4,112.4c-8.3-8.3-21.8-8.1-30.1,0.2s-8.2,21.8,0.2,30.1l92.4,91.2H191.4
+	                c-11.8,0-21.3,9.5-21.3,21.3s9.5,21.3,21.3,21.3h247.6l-92.4,91.2c-8.4,8.3-8.4,21.7-0.2,30.1c4.2,4.2,9.7,6.3,15.1,6.3
+	                c5.4,0,10.8-2,14.9-6.1l129.3-127.6c4-4,6.3-9.4,6.3-15.1C512,249.5,509.7,244,505.7,240z" Fill="White" Stretch="Fill" Width="35"  Margin="10,10,0,0"/>
+                <Button Content="Quitter" Foreground="White" Background="Transparent" BorderBrush="Transparent" Margin="20,0,0,0"  FontSize="20" Click="Quitter_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Window>
