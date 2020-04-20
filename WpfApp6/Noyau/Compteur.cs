@@ -72,5 +72,10 @@ namespace Projet.CirSim
         }
         public void setDebutComptage(int i) { this.i = i; }
         public override int Get_sortie(int num) { return sorties[num]; }
+         public void Set_Propriete(string type,int modulo)
+        {
+            this.modulo = modulo;
+            this.type = type;
+        }
     }
 }
