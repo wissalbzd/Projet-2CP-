@@ -1,30 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CirSim
-{
-    public class Horloge
-    {
-        int cy = 10;
-        public List<Sequentiels> compoattaches = new List<Sequentiels>();
-        public bool stop = true;
-        public void cycle() 
+  public void cycle()
         {
-            bool front = true,etat=true;
+            int et = -1;
             int i = 0;
-            while (i<cy)
+            
+            while (i<cy*2)
             {
-                if (front) foreach (Sequentiels element in compoattaches) element.Evaluer();
-                System.Threading.Thread.Sleep(1000);
-                front = false;
-                // Console.WriteLine("front descendant");
-                etat = !etat;
-                System.Threading.Thread.Sleep(1000);
-                front = true;
-                i++;
-            }
-        }
+                foreach (Composant c in compoSync )
+                { c.evalue = false; }
+                foreach (Bascule c in compoattaches)
+                { c.evalue = false; /*Console.WriteLine("sortie    " +c.sorties[0]); */ }
+                foreach (Sequentiels element in compoattaches)
+                {element.Eval();}
+                foreach (Bascule c in this.compoSync)
+                { c.Eval(); }
+                foreach(LampeControl l in Circuit.lampesSync)
+                { l.activer();  }
+                this.WaitNSeconds(2);
+                //System.Threading.Tasks.Task.Delay(5000);
+                if (front == 1) { et = 1; etat = true; } else { et = 0; etat = false; }
+                front = -1;
+                foreach (Composant c in compoSync)
+                { c.evalue = false; }
+                foreach (Composant c in compoattaches)
+                { c.evalue = false; }
+                foreach (Sequentiels element in compoattaches)
+                {element.Eval();}
+                foreach(Composant c in this.compoSync)
+                {c.Eval();}
+                foreach (LampeControl l in Circuit.lampesSync)
+                {l.activer();}
 
-    }
-}
+                Console.WriteLine("i = " + i);
+               
+                if (et == 1) front = 0; else front = 1;
+                et = -1;
+                
+               
+                i++;
+
+            }
+
+
+
+
+
+        }
