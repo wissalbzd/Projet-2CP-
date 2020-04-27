@@ -54,7 +54,7 @@ namespace Projet.CirSim
 
                 Precedent = sorties[i];
             }
-
+             this.Complementaire();
         }
 
     }
