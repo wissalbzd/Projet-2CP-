@@ -85,7 +85,7 @@ namespace Projet.CirSim
 
                 }
             }
-
+          this.Complementaire();
         }
 
     }
