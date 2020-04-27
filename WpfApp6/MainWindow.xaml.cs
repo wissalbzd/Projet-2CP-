@@ -1,4 +1,4 @@
-﻿using BeautySolutions.View.ViewModel;
+using BeautySolutions.View.ViewModel;
 using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
@@ -16,6 +16,10 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Projet.CirSim;
 using Projet.Controleurs;
+using System.Threading;
+using System.Windows;
+using Projet.Chronogrammes;
+//using WpfApp6.Controleurs;
 
 namespace Projet
 {
@@ -25,11 +29,13 @@ namespace Projet
     public partial class MainWindow : Window
     {
         public  Wire filActif;
-        public Circuit circuit;
+        Thread threadCycle ;
+        ChronosWindow windowChronos;
+        //Thread threadEvaluation;
         public MainWindow()
         {
             InitializeComponent();
-            circuit = new Circuit();
+            windowChronos = new ChronosWindow(); 
             var menuRegister = new List<SubItem>();
             menuRegister.Add(new NotSubItem("NON"));
             menuRegister.Add(new BoxShowSubItem("ET", typeof(And)));
@@ -40,8 +46,9 @@ namespace Projet
             var item0 = new ItemMenu("PLogiques", menuRegister);
 
             var menuScheduler = new List<SubItem>();
-            menuScheduler.Add(new BoxShowSubItem("ADD", typeof(ADD)));
-            menuScheduler.Add(new BoxShowSubItem("ADC",typeof(ADC)));
+            menuScheduler.Add(new AddUnSubItem("ADD", typeof(ADD)));
+            menuScheduler.Add(new AddUnSubItem("ADC",typeof(ADC)));
+            menuScheduler.Add(new AddNSubItem("ADnbits"));
             menuScheduler.Add(new BoxShowSubItem("Decodeur", typeof(Decodeur)));
             menuScheduler.Add(new BoxShowSubItem("Encodeur", typeof(Encodeur)));
             menuScheduler.Add(new BoxShowSubItem("Mux",typeof(Mux)));
@@ -49,18 +56,19 @@ namespace Projet
             var item1 = new ItemMenu("Combinatoires  ", menuScheduler);
 
             var menuReports = new List<SubItem>();
-            menuReports.Add(new BoxShowSubItem("Bascule T", typeof(T)));
-            menuReports.Add(new BoxShowSubItem("Bascule D", typeof(T)));
-            menuReports.Add(new BoxShowSubItem("Bascule RST", typeof(T)));
-            menuReports.Add(new BoxShowSubItem("Bascule JK", typeof(JK)));
-            menuReports.Add(new BoxShowSubItem("Compteurs", typeof(JK)));
-            menuReports.Add(new BoxShowSubItem("Registres",typeof(JK)));
+            menuReports.Add(new SeqSubItem("Bascule T", typeof(T)));
+            menuReports.Add(new SeqSubItem("Bascule D", typeof(D)));
+            menuReports.Add(new SeqSubItem("Bascule RST", typeof(RST)));
+            menuReports.Add(new SeqSubItem("Bascule JK", typeof(JK)));
+            menuReports.Add(new SeqSubItem("Compteurs", typeof(Compteur)));
+            menuReports.Add(new SeqSubItem("Registres",typeof(JK)));
             var item2 = new ItemMenu("Sequentils   ", menuReports);
 
             var menuExpenses = new List<SubItem>();
             //menuExpenses.Add(new SubItem("File", typeof(Lampe)));
             menuExpenses.Add(new LampeSubItem("Lampe"));
             menuExpenses.Add(new PinSubItem("Pin"));
+            menuExpenses.Add(new ClockSubItem("Horloge"));
             var item3 = new ItemMenu("Outils", menuExpenses);
 
             
@@ -74,7 +82,21 @@ namespace Projet
         private void Simuler_Click(object sender, RoutedEventArgs e)
         {
             (sender as Button).Background=Brushes.Turquoise ;
-            circuit.traiter();
+            Arreter.IsEnabled = true;
+            
+            Circuit.traiter(windowChronos);
+            if (Circuit.Horloge != null)
+            {
+               
+                Chrono.IsEnabled = true;
+                //Circuit.Horloge.stop = false;
+                //Circuit.Horloge.cycle();
+                threadCycle = new Thread(Circuit.Horloge.cycle);
+               // threadEvaluation = new Thread(Circuit.Horloge.evaluation);
+                threadCycle.Start();
+                //threadEvaluation.Start();
+                
+            }
         }
 
         private void Simuler_MouseEnter(object sender, MouseEventArgs e)
@@ -86,7 +108,41 @@ namespace Projet
         {
             (sender as Button).Background = Brushes.Transparent;
         }
-    }
-    }
 
-// <materialDesign:PopupBox PlacementMode="BottomAndAlignRightEdges" HorizontalAlignment="Right" Margin="15"/>
+        private void Arreter_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Red;
+           
+        }
+
+        private void Arreter_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Transparent;
+        }
+
+        private void Arreter_Click(object sender, RoutedEventArgs e)
+        {
+            if(Circuit.Horloge != null)Circuit.Horloge.stop = true;
+        }
+
+        private void Chronos_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
+            windowChronos.Show();
+            windowChronos.ActiverChrono();
+
+
+
+        }
+
+        private void Chrono_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
+        }
+
+        private void Chrono_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
+        }
+    }
+}
