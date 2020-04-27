@@ -45,7 +45,7 @@ namespace Projet.CirSim
 
             //******************************Test********************************* if (T == 0) T = 1; else T = 0;
             //this.i=this.i+1;
-        
+             this.Complementaire();
         }
 
        
