@@ -4,6 +4,7 @@ using System.Text;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using Projet.Controleurs;
+using Projet.Chronogrammes;
 namespace Projet.CirSim
 {
 
@@ -15,6 +16,7 @@ namespace Projet.CirSim
         public int nbBits;
         public bool sync = false;
         public bool evalue;
+        public List<Chrono> MesChronos=new List<Chrono>();
         public Composant(int nbBits)
         { this.nbBits = nbBits; }
         public Dictionary<int, List<Enreg>> relSortie = new Dictionary<int, List<Enreg>>();
@@ -117,7 +119,18 @@ namespace Projet.CirSim
                 }
             }
         }
-
+        public void SyncChrono()
+        {
+            int i = 0;
+            if(this.MesChronos.Count != 0)
+            { 
+            foreach (Chrono chrono in MesChronos)
+            {
+                chrono.AjoutVal(this.sorties[i]);
+                i++;
+            }
+            }
+        }
        
         
     }
