@@ -78,14 +78,18 @@ namespace Projet
             
         }
 
-        private void Simuler_Click(object sender, RoutedEventArgs e)
+         private void Simuler_Click(object sender, RoutedEventArgs e)
         {
             (sender as Button).Background=Brushes.Turquoise ;
             Arreter.IsEnabled = true;
-            Circuit.traiter();
+            
+            Circuit.traiter(windowChronos);
             if (Circuit.Horloge != null)
             {
-                Circuit.Horloge.stop = false;
+               
+                Chrono.IsEnabled = true;
+                //Circuit.Horloge.stop = false;
+                //Circuit.Horloge.cycle();
                 threadCycle = new Thread(Circuit.Horloge.cycle);
                // threadEvaluation = new Thread(Circuit.Horloge.evaluation);
                 threadCycle.Start();
@@ -117,7 +121,27 @@ namespace Projet
 
         private void Arreter_Click(object sender, RoutedEventArgs e)
         {
-            Circuit.Horloge.stop = true;
+            if(Circuit.Horloge != null)Circuit.Horloge.stop = true;
+        }
+
+        private void Chronos_Click(object sender, RoutedEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
+            windowChronos.Show();
+            windowChronos.ActiverChrono();
+
+
+
+        }
+
+        private void Chrono_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
+        }
+
+        private void Chrono_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as Button).Background = Brushes.Turquoise;
         }
     }
     }
