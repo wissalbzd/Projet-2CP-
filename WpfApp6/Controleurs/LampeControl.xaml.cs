@@ -124,5 +124,26 @@ namespace Projet.Controleurs
             if (!clic) gates.ReleaseMouseCapture();
         }
 
+                private void Supprimer_Click(object sender, RoutedEventArgs e)
+        {
+            if (Circuit.lampes.Contains(this)) Circuit.lampes.Remove(this);
+            else Circuit.lampesSync.Remove(this);
+            window.grid.Children.Remove(this);
+        }
+        private void Copier_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as MenuItem).Background = Brushes.Turquoise;
+        }
+
+        private void MenuItem_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as MenuItem).Background = Brushes.Black;
+        }
+
     }
 }
