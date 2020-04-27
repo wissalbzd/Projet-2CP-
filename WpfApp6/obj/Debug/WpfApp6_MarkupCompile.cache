@@ -1,0 +1,20 @@
+﻿WpfApp6
+
+
+winexe
+C#
+.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\
+WpfApp6
+none
+false
+DEBUG;TRACE
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\App.xaml
+20-1851929542
+
+66-1690979497
+15935773652
+Controleurs\Additionneur.xaml;Controleurs\BasculeGraphique.xaml;Controleurs\ClockControl.xaml;Controleurs\CptDialog.xaml;Controleurs\CptGraphique.xaml;Controleurs\Fil.xaml;Controleurs\Gate.xaml;Controleurs\Gate_Or.xaml;Controleurs\InputDialogSample.xaml;Controleurs\LampeControl.xaml;Controleurs\MUX.xaml;Controleurs\NotControl.xaml;Controleurs\PinGraphique.xaml;Controleurs\RegistreUI.xaml;Controleurs\RgistreDialog.xaml;Controleurs\Segment_Display.xaml;Controleurs\SeqDialog.xaml;MainWindow.xaml;PrincipalWindow.xaml;UserControlMenuItem.xaml;
+
+False
+
