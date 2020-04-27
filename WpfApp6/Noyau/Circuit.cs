@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Projet.Controleurs;
 using System.Threading;
+using Projet.Chronogrammes;
 namespace Projet.CirSim
 {
 
@@ -25,7 +26,7 @@ namespace Projet.CirSim
             { lesSorties.Add(c); }
             
         }
-        public static void traiter()
+        public static void traiter(ChronosWindow window)
         {
             for (int i = lampes.Count - 1; i >= 0; i--)
             {
@@ -34,6 +35,14 @@ namespace Projet.CirSim
                     lampesSync.Add(lampes[i]);
                     lampes.RemoveAt(i);
                 }
+            }
+             foreach (Composant c in lesComposants)
+            {
+                c.evalue = false; 
+            }
+            if (Circuit.Horloge != null)
+            {
+                CreerChronos(window);
             }
             foreach (PinGraphique pin in pins)
             {
@@ -54,6 +63,23 @@ namespace Projet.CirSim
             // hna pour chaque compo dans lampeSync  compo.Eval 
            //et hna on allume les lampes reliées au compoSync 
 
+        }
+         private static void CreerChronos(ChronosWindow window)
+        {
+            Chrono ch = new Chrono();
+            window.AddChrono(ch);
+            Circuit.Horloge.chrono = ch;
+            foreach (Composant c in Circuit.Horloge.compoattaches)
+            {
+                for (int i = 0; i < c.sorties.Length; i++)
+                {
+                    
+                    ch = new Chrono();
+                    c.MesChronos.Add(ch);
+                    window.AddChrono(ch);
+                   
+                }
+            }
         }
     }
 }
