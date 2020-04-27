@@ -27,6 +27,7 @@
                 </Grid.RowDefinitions>
                 <Button Content="Simuler" Name="Simuler" Click="Simuler_Click" Background="Transparent" HorizontalAlignment="Right"  Cursor="Hand" FontFamily="Roboto" Height="25" Width="100" BorderBrush="Turquoise" Margin="0 0 210 0" MouseEnter="Simuler_MouseEnter" MouseLeave="Simuler_MouseLeave"></Button>
                 <Button Content="Arreter" Name="Arreter" Click="Arreter_Click"  Background="Transparent" HorizontalAlignment="Right"  Cursor="Hand" FontFamily="Roboto" Height="25" Width="100" BorderBrush="Red" Margin="0 0 100 0" MouseEnter="Arreter_MouseEnter"  MouseLeave="Arreter_MouseLeave" IsEnabled="False"></Button>
+                <Button Content="Chronogrammes" Name="Chrono" Click="Chronos_Click"  Background="Transparent" HorizontalAlignment="Right"  Cursor="Hand" FontFamily="Roboto" Height="25" Width="100" BorderBrush="Transparent"  Margin="0 0 320 0"  IsEnabled="False" MouseEnter="Chrono_MouseEnter" MouseLeave="Chrono_MouseLeave"></Button>
 
             </Grid>
         </materialDesign:ColorZone>
