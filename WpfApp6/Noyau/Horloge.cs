@@ -14,11 +14,12 @@ namespace Projet.CirSim
         public bool stop = false;
         public bool etat = true;
         public int front = 1;
+        public int et = -1;
 
         public void cycle()
         {
 
-            int et = -1;
+            
             int i = 0;
 
             while (!stop)
