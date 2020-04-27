@@ -4,7 +4,15 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Projet.Controleurs">
-    <Grid x:Name="gates"  Height="80" Width="80" Background="Transparent" MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" >
+    <Grid x:Name="gates"  Height="40" Width="40" Background="Transparent" MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" >
+         <Grid.ContextMenu>
+            <ContextMenu  Background="Black" Opacity="0.95" >
+                <MenuItem Header="Supprimer" Background="Black" BorderBrush="Black" Foreground="White" Click="Supprimer_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
+                <MenuItem Header="Copier" Background="Black" BorderBrush="Black"  Foreground="White" Click="Copier_Click" MouseEnter="MenuItem_MouseEnter"  MouseLeave="MenuItem_MouseLeave"/>
+                <MenuItem Header="Coller" Background="Black" BorderBrush="Black" Foreground="White" IsEnabled="False" />
+            </ContextMenu>
+        </Grid.ContextMenu> 
+      
         <Grid.RenderTransform>
             <TranslateTransform x:Name="tt"/>
         </Grid.RenderTransform>
