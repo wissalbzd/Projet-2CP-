@@ -39,7 +39,7 @@ namespace Projet.CirSim
         {
           if(Validation==null)
           {
-                if ((this.mode == "frontM" && Circuit.Horloge.front == 1) || (this.mode == "fronD" && Circuit.Horloge.front == 0) || (this.mode == "etatH" && Circuit.Horloge.etat) || (this.mode == "etatB" && !Circuit.Horloge.etat))
+                if ((mode == "frontM" && Circuit.Horloge.front == 1) || (mode == "fronD" && Circuit.Horloge.front == 0) || (mode == "etatH" && Circuit.Horloge.et==1) || (mode == "etatB" && Circuit.Horloge.et==0))
                 { Console.WriteLine("true"); return true; }
                 else { return false;  }
             }
