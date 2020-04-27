@@ -6,6 +6,14 @@
              xmlns:local="clr-namespace:Projet.Controleurs">
 
     <Grid x:Name="p" Width="63" Height="40" Background="Transparent"  MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" >
+         <Grid.ContextMenu>
+            <ContextMenu  Background="Black" Opacity="0.95" >
+                <MenuItem Header="Supprimer" Background="Black" BorderBrush="Black" Foreground="White" Click="Supprimer_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
+                <MenuItem Header="Copier" Background="Black" BorderBrush="Black"  Foreground="White" Click="Copier_Click" MouseEnter="MenuItem_MouseEnter"  MouseLeave="MenuItem_MouseLeave"/>
+                <MenuItem Header="Coller" Background="Black" BorderBrush="Black" Foreground="White" IsEnabled="False" />
+            </ContextMenu>
+        </Grid.ContextMenu>
+      
         <Grid.RenderTransform>
             <TranslateTransform x:Name="tt"/>
         </Grid.RenderTransform>
