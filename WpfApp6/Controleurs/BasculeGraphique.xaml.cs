@@ -302,5 +302,50 @@ namespace Projet.Controleurs
             if (!clic) gates.ReleaseMouseCapture();
         }
 
+        private void Supprimer_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (KeyValuePair<int, Enreg> p in composant.relEntree)
+            {
+                Composant cp = p.Value.composant;
+                int ns = p.Value.nEntree;
+                if (cp.relSortie.ContainsKey(ns))
+                {
+                    if (cp.relSortie[ns].Count == 1) { cp.relSortie.Remove(ns); Console.WriteLine("/////// supression////////"); }
+                    else
+                    {
+                        Enreg enreg = new Enreg(composant, p.Key);
+                        cp.relSortie[ns].Remove(enreg);
+                    }
+                }
+            }
+            foreach (KeyValuePair<int, List<Enreg>> p in composant.relSortie)
+            {
+                foreach (Enreg enreg in p.Value)
+                {
+                    if (enreg.composant.relEntree.ContainsKey(enreg.nEntree)) { enreg.composant.relEntree.Remove(enreg.nEntree); }
+                }
+            }
+            if (composant.sync && Circuit.Horloge != null)
+            {
+               if (Circuit.Horloge.compoattaches.Contains(composant)) Circuit.Horloge.compoattaches.Remove(composant); 
+            }
+            if (! composant.sync) Circuit.lesComposants.Remove(composant);
+            window.grid.Children.Remove(this);
+        }
+        private void Copier_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as MenuItem).Background = Brushes.Turquoise;
+        }
+
+        private void MenuItem_MouseLeave(object sender, MouseEventArgs e)
+        {
+            (sender as MenuItem).Background = Brushes.Black;
+        }
+    
     }
 }
