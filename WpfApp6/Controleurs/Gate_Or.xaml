@@ -11,6 +11,7 @@
         <Grid.ContextMenu>
             <ContextMenu  Background="Black" Opacity="0.95" >
                 <MenuItem Header="Supprimer" Background="Black" BorderBrush="Black" Foreground="White" Click="Supprimer_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
+                <MenuItem Header="Pivoter" Background="Black" BorderBrush="Black" Foreground="White" Click="Pivoter_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
                 <MenuItem Header="Copier" Background="Black" BorderBrush="Black"  Foreground="White" Click="Copier_Click" MouseEnter="MenuItem_MouseEnter"  MouseLeave="MenuItem_MouseLeave"/>
                 <MenuItem Header="Coller" Background="Black" BorderBrush="Black" Foreground="White" IsEnabled="False" />
         </ContextMenu>
@@ -18,7 +19,10 @@
 
 
 	 <Grid.RenderTransform>
-                <TranslateTransform x:Name="tt"/>
+                <TransformGroup>
+                     <RotateTransform  CenterX="32" CenterY="32" Angle="0" x:Name="vv" />
+                <TranslateTransform x:Name="tt" />
+            </TransformGroup>
             </Grid.RenderTransform>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5"/>
