@@ -15,7 +15,10 @@
         </Grid.ContextMenu>       
 
 	 <Grid.RenderTransform>
-            <TranslateTransform x:Name="tt"/>
+            <TransformGroup>
+                <RotateTransform  CenterX="32" CenterY="32" Angle="0" x:Name="vv" />
+                <TranslateTransform x:Name="tt" />
+            </TransformGroup>
         </Grid.RenderTransform>
         <Grid.RowDefinitions>
             <RowDefinition Height="12*"/>
