@@ -21,8 +21,8 @@
 	 <Grid.RenderTransform>
                 <TransformGroup>
                      <RotateTransform  CenterX="32" CenterY="32" Angle="0" x:Name="vv" />
-                <TranslateTransform x:Name="tt" />
-            </TransformGroup>
+                     <TranslateTransform x:Name="tt" />
+                </TransformGroup>
             </Grid.RenderTransform>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="5"/>
