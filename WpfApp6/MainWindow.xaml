@@ -1,0 +1,73 @@
+﻿<Window x:Class="Projet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projet"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="CirSim" Icon="images/logo.ico" Height="450" Width="800" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="400" />
+            <ColumnDefinition Width="230" />
+            <ColumnDefinition Width="*"/>
+
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <materialDesign:ColorZone Mode="PrimaryMid" Grid.Row="0" Grid.ColumnSpan="3"  Background="Black" Height="40">
+            <Grid>
+
+                <StackPanel Orientation="Horizontal">
+                    <Path Data="M481.765,220.422L276.474,15.123c-16.967-16.918-44.557-16.942-61.559,0.023L9.626,220.422
+			c-12.835,12.833-12.835,33.65,0,46.483c12.843,12.842,33.646,12.842,46.487,0l27.828-27.832v214.872
+			c0,19.343,15.682,35.024,35.027,35.024h74.826v-97.62c0-7.584,6.146-13.741,13.743-13.741h76.352
+			c7.59,0,13.739,6.157,13.739,13.741v97.621h74.813c19.346,0,35.027-15.681,35.027-35.024V239.091l27.812,27.815
+			c6.425,6.421,14.833,9.63,23.243,9.63c8.408,0,16.819-3.209,23.242-9.63C494.609,254.072,494.609,233.256,481.765,220.422z" Stretch="Fill" Width="15" Height="15" Fill="White" Margin="10,12.166,0,12.833" ToolTip="Accueil"/>
+                    <Path Data="M506.5,124.1L387.9,5.5c0,0,0,0,0,0c-3.4-3.4-8.2-5.5-13.2-5.5C359.6,0,33,0,18.7,0C8.4,0,0,8.4,0,18.7v474.5
+	C0,503.6,8.4,512,18.7,512c22.6,0,452.4,0,474.5,0c10.3,0,18.7-8.4,18.7-18.7V137.4C512,132.4,510,127.6,506.5,124.1z M156.1,37.5
+	h199.8v110.8H156.1V37.5z M400.5,474.5H111.6V316.9h288.9V474.5z M474.5,474.5h-36.6V298.2c0-10.3-8.4-18.7-18.7-18.7H92.8
+	c-10.3,0-18.7,8.4-18.7,18.7v176.3H37.5V37.5h81.2V167c0,10.3,8.4,18.7,18.7,18.7h237.3c10.3,0,18.7-8.4,18.7-18.7V64l81.2,81.2
+	V474.5z M309.5,55c-10.3,0-18.7,8.4-18.7,18.7V112c0,10.3,8.4,18.7,18.7,18.7c10.3,0,18.7-8.4,18.7-18.7V73.7
+	C328.2,63.4,319.9,55,309.5,55z" Stretch="Fill" Width="15" Height="15" Fill="White" Margin="5,0,0,0" ToolTip="Sauvgarder" />
+                    <Path x:Name="simuler" Data="M333.424,234.146c0,12.488-6.244,25.6-18.107,33.717L61.19,430.205
+		C34.341,447.063,0,427.707,0,396.488V71.805c0-31.22,34.341-50.576,61.19-33.717l254.127,162.341
+		C327.18,208.546,333.424,221.659,333.424,234.146z" Stretch="Fill" Height="15" Width="15" Fill="White" Margin="5,0,0,0" ToolTip="Simuler"  MouseDown="simuler_MouseDown" MouseEnter="icon_MouseEnter" MouseLeave="icon_MouseLeave"/>
+                    <Path Data="M138.7,0H32C14.4,0,0,14.4,0,32v448c0,17.6,14.4,32,32,32h106.7c17.6,0,32-14.4,32-32V32C170.7,14.4,156.3,0,138.7,0z
+	 M394.7,0H288c-17.6,0-32,14.4-32,32v448c0,17.6,14.4,32,32,32h106.7c17.6,0,32-14.4,32-32V32C426.7,14.4,412.3,0,394.7,0z" Stretch="Fill" Height="15" Width="15" Fill="White" Margin="5,0,0,0" ToolTip="Pause" />
+                    <Rectangle x:Name="arreter"  Width="15" Height="15" Fill="White" Margin="5,0,0,0" ToolTip="Arreter" IsEnabled="False" Opacity="0.7" MouseLeave="Arreter_MouseLeave" MouseEnter="Arreter_MouseEnter" MouseDown="arreter_MouseDown" />
+                    <Rectangle  Width="1" Opacity="0.1"  Fill="White" Margin="5,0,0,0"/>
+                    <Path x:Name="tabv" Data="M63,84H0V0h63V84z M4,80h55V4H4V80z M40.6,27.6c0,5.5-3.2,8.5-8.8,8.5c-4.9,0-8.3-3-8.4-8.3c0-5.4,3.7-8.4,8.8-8.4
+	C37.6,19.5,40.6,22.5,40.6,27.6z M26.9,27.9c0,4.2,2,6.6,5.1,6.6c3.5,0,5.2-2.6,5.2-6.7c0-4-1.6-6.6-5.1-6.6
+	C29.1,21.2,26.9,23.5,26.9,27.9z M31.2,51.6L31.2,51.6l-4.5,1.5l-0.7-1.7l5.5-1.9h2.9v16.2h-3.3V51.6z" Stretch="Fill" Height="15" Width="15" Fill="White" Margin="5,0,0,0" Stroke="White" StrokeThickness="1.5" ToolTip="Table de vérité" MouseDown="tabv_MouseDown" MouseEnter="icon_MouseEnter" MouseLeave="icon_MouseLeave" />
+                    <Path x:Name="Chrono" Data="M159,117H0V0h159V117z M10,107h139V10H10V107z M49,73H10v4h39V73z M110,43H49v4h61V43z M150,73h-39v4h39V73z M51,45h-4v31h4
+	V45z M112,45h-4v31h4V45z" Stretch="Fill" Height="15" Width="15" Stroke="White" Margin="5,0,0,0" ToolTip="Chronogramme" IsEnabled="False" MouseDown="Chrono_MouseDown" MouseEnter="icon_MouseLeave" MouseLeave="icon_MouseLeave"/>
+
+
+
+
+                </StackPanel>
+
+            </Grid>
+        </materialDesign:ColorZone>
+        <StackPanel Grid.RowSpan="2" Grid.ColumnSpan="3" HorizontalAlignment="Center">
+            <Ellipse Width="200" Height="75" Fill="Black" HorizontalAlignment="Center" />
+
+        </StackPanel>
+        <Grid HorizontalAlignment="Stretch"  Grid.Row="1" Background="Black" Grid.ColumnSpan="2" Margin="0,0,436,0" Grid.RowSpan="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="326*"/>
+            </Grid.RowDefinitions>
+            <ScrollViewer HorizontalAlignment="Stretch" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1">
+                <StackPanel x:Name="Menu" Margin="0"/>
+            </ScrollViewer>
+        </Grid>
+        <Grid x:Name="grid" Grid.ColumnSpan="3" Margin="194,0,0,0" Grid.Row="1" Grid.RowSpan="2"/>
+    </Grid>
+</Window>

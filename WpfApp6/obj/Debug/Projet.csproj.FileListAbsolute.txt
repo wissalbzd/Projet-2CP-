@@ -1,0 +1,553 @@
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\App.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp6\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Acer\Desktop\c#prog\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\App.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\c#prog\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+D:\WpfApp7\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\MainWindow.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\App.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6.exe
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6.pdb
+D:\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe.config
+D:\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe
+D:\WpfApp7\WpfApp6\bin\Debug\WpfApp6.pdb
+D:\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.dll
+D:\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+D:\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\WpfApp7\WpfApp6\obj\Debug\App.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+D:\WpfApp7\WpfApp6\obj\Debug\MainWindow.baml
+D:\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.baml
+D:\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.baml
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6.g.resources
+D:\WpfApp7\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+D:\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+D:\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+D:\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\App.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\Project\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.pdb
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe.config
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.exe
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\WpfApp6.pdb
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.dll
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\MainWindow.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\App.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\App.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\MainWindow.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\PrincipalWindow.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\UserControlMenuItem.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.g.resources
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.exe
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\WpfApp6.pdb
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\CptGraphique.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\CptGraphique.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\RegistreUI.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\RegistreUI.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Fil.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Fil.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\CptDialog.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\SeqDialog.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\CptDialog.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\SeqDialog.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Additionneur.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Additionneur.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Segment_Display.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\Segment_Display.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\RgistreDialog.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\RgistreDialog.baml
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\MUX.g.cs
+D:\Nouveau dossier\WpfApp7-20200419T182909Z-001\WpfApp7\WpfApp6\obj\Debug\Controleurs\MUX.baml
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\Desktop\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Additionneur.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\CptDialog.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\CptGraphique.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Fil.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\MUX.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\RegistreUI.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\RgistreDialog.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Segment_Display.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\SeqDialog.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\App.g.cs
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\App.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Additionneur.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\CptDialog.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\CptGraphique.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Fil.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\MUX.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\RegistreUI.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\RgistreDialog.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\Segment_Display.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Controleurs\SeqDialog.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\ASUS\Desktop\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.dll
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.xml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\App.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Views\TvWindow.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.dll
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.xml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\App.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Views\TvWindow.baml
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\c#prog\29_04\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe.config
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\WpfApp6.exe
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\WpfApp6.pdb
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.dll
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.dll
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.dll
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.pdb
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.xml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.pdb
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\LiveCharts.Wpf.xml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\MaterialDesignColors.pdb
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Projet.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\MainWindow.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Views\TvWindow.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\App.g.cs
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.cache
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6_MarkupCompile.lref
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\App.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\Chrono.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Chronogrammes\ChronosWindow.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Additionneur.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\BasculeGraphique.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\ClockControl.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptDialog.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\CptGraphique.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Fil.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Gate_Or.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\InputDialogSample.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\LampeControl.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\MUX.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\NotControl.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\PinGraphique.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\RegistreUI.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\RgistreDialog.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\Segment_Display.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Controleurs\SeqDialog.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\MainWindow.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\PrincipalWindow.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\UserControlMenuItem.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Views\TvWindow.baml
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6.g.resources
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6.Properties.Resources.resources
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.GenerateResource.cache
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\Projet.csproj.CopyComplete
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6.exe
+C:\Users\ASUS\Desktop\code\WpfApp6\WpfApp6\obj\Debug\WpfApp6.pdb

@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Projet.Controleurs.LampeControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Projet.Controleurs"
+             mc:Ignorable="d" Height="106" Width="224">
+    <Grid Height="80" Width="80" Name="gates"  MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" >
+        <Grid.ContextMenu>
+            <ContextMenu  Background="Black" Opacity="0.95" >
+                <MenuItem Header="Supprimer" Background="Black" BorderBrush="Black" Foreground="White" Click="Supprimer_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
+                <MenuItem Header="Copier" Background="Black" BorderBrush="Black"  Foreground="White" Click="Copier_Click" MouseEnter="MenuItem_MouseEnter"  MouseLeave="MenuItem_MouseLeave"/>
+                <MenuItem Header="Coller" Background="Black" BorderBrush="Black" Foreground="White" IsEnabled="False" />
+        </ContextMenu>
+        </Grid.ContextMenu>       
+
+	 <Grid.RenderTransform>
+            <TranslateTransform x:Name="tt"/>
+        </Grid.RenderTransform>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+
+
+
+        <Path x:Name="le_path" Data="m272.070312 384.15625h-192v-16c-.304687-25.832031-10.839843-50.484375-29.292968-68.5625-68.171875-69.109375-67.511719-180.363281 1.46875-248.664062 68.984375-68.296876 180.238281-67.847657 248.667968 1.003906 68.425782 68.855468 68.1875 180.113281-.539062 248.667968-18.101562 17.816407-28.296875 42.152344-28.304688 67.554688zm0 0"
+              Stroke="Black" StrokeThickness="2" Fill="Gray" Grid.Column="0" Width="30" Height="40" Stretch="Fill" Grid.RowSpan="3" RenderTransformOrigin="0.511,0.772" 
+               />
+        <Rectangle Width="14" Height="2" Fill="Black" Stretch="Fill" Grid.Row="2" Grid.Column="0" Margin="33,32,33,15"   />
+        <Rectangle Width="10" Height="2" Fill="Black" Stretch="Fill" Grid.Row="2" Grid.Column="0" Margin="35,34,35,13"  />
+        <Ellipse Name="E" Grid.Row="2" Stroke="Black" StrokeThickness="4" HorizontalAlignment="Left" VerticalAlignment="Center" Cursor="Hand" Margin="38,34,0,11" MouseDown="E_MouseDown" MouseUp="E_MouseUp" />
+        <Path Data="m128.070312 192.15625h32v192h32v-192h32v-32h-96zm0 0" Fill="White" Stretch="Fill"
+              Height="13" Width="8" Grid.Row="2" Margin="36,14.367,36,21.632"  />
+        <Rectangle Width="2" Height="1.8" Fill="White" Stretch="Fill" Margin="45,14,33,33" Grid.Row="2" />
+        <Rectangle Width="2" Height="1.8" Fill="White" Stretch="Fill" Margin="33,14,45,33" Grid.Row="2" />
+
+    </Grid>
+</UserControl>

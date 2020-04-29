@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="Projet.Controleurs.BasculeGraphique"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Projet.Controleurs">
+
+    <Grid Name="gates" Height="80" Width="80" Background="Transparent" MouseDown="Grid_MouseDown" MouseMove="Grid_MouseMove" MouseUp="Grid_MouseUp" >
+       
+        <Grid.ContextMenu>
+            <ContextMenu  Background="Black" Opacity="0.95" >
+                <MenuItem Header="Supprimer" Background="Black" BorderBrush="Black" Foreground="White" Click="Supprimer_Click" MouseEnter="MenuItem_MouseEnter" MouseLeave="MenuItem_MouseLeave" />
+                <MenuItem Header="Copier" Background="Black" BorderBrush="Black"  Foreground="White" Click="Copier_Click" MouseEnter="MenuItem_MouseEnter"  MouseLeave="MenuItem_MouseLeave"/>
+                <MenuItem Header="Coller" Background="Black" BorderBrush="Black" Foreground="White" IsEnabled="False" />
+        </ContextMenu>
+        </Grid.ContextMenu>
+
+	 <Grid.RenderTransform>
+            <TranslateTransform x:Name="tt"/>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+        </Grid.ColumnDefinitions>
+
+
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Column="1" Grid.RowSpan="3" Fill="White" StrokeThickness="1" Stretch="Fill" OpacityMask="Black" Stroke="Black" ></Rectangle>
+        <Ellipse Grid.Column="2" Grid.Row="0"  Fill="Black" HorizontalAlignment="Right" Height="5"  Width="5" x:Name="S1" MouseDown="sortie_MouseDown" MouseUp="sortie_MouseUp" Cursor="Hand"/>
+        <Ellipse Grid.Column="2" Grid.Row="2"  Fill="Black" HorizontalAlignment="Right" Height="5"  Width="5" x:Name="S2" Cursor="Hand"/>
+        <Label Content="Q" BorderBrush="Black" Grid.Row="0" HorizontalAlignment="Right" Width="auto" Height="auto"  Grid.Column="1"  />
+        <Label Content="!Q" BorderBrush="Black" Grid.Row="2" HorizontalAlignment="Right" Width="auto" Height="auto"  Grid.Column="1"  />
+
+    </Grid>
+</UserControl>
