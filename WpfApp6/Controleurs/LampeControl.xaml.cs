@@ -134,6 +134,24 @@ namespace Projet.Controleurs
         {
 
         }
+        private void Pivoter_Click(object sender, RoutedEventArgs e)
+        {
+            if (vv.Angle == 0) { vv.Angle = 90; }
+            else
+            {
+                if (vv.Angle == 90) { vv.Angle = 180; }
+                else
+                {
+                    if (vv.Angle == 180) { vv.Angle = -90; }
+                    else
+                    {
+                        if (vv.Angle == -90) { vv.Angle = 0; }
+                    }
+                    
+                }
+                
+            }
+        }
 
         private void MenuItem_MouseEnter(object sender, MouseEventArgs e)
         {
